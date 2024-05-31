@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+body{
+  background-color:skyblue;
+}
+
+#container{
+  background-color:rgb(104, 104, 177);
+  border:1px solid black;
+  border-radius: 10px;
+  height:400px;
+  width:70%;
+  margin:auto;
+  margin-top: 120px;
+  text-align:center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 45px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  color:yellow;
+  line-height: 1.5rem;
+}
+main {
+  margin: 10px 0;
+}
+input {
+  margin-top: 10px;
+  padding: 3px;
+  line-height: 10px;
+}
+footer {
+  height: 50px;
+}
+button {
+  width: 10%;
+  padding: 5px;
+  border-radius: 50px;
+}
